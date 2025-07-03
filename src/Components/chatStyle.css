@@ -1,0 +1,19 @@
+/* ... Your existing CSS ... */
+
+.chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .chat-button button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* ... Your existing CSS ... */
+  

@@ -1,0 +1,21 @@
+/* Login.css */
+.form-container {
+  width: 50%;
+  padding: 20px;
+  borderright: 1px solid #ccc;
+  display: flex;
+  justifycontent: center;
+  alignitems: center;
+  background-color: #f0e0d0 !important; /* Add !important */
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  max-width: -webkit-fill-available;
+}

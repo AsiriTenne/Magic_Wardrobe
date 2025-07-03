@@ -1,0 +1,184 @@
+/* Adjust the positioning of the main container */
+.App-w {
+  position: absolute;
+  top: 50%; /* Adjust as needed */
+  left: 50%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Center the container */
+  width: 100%; /* Adjust as needed */
+  height: 100%; /* Adjust as needed */
+}
+
+.app-w {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px; /* Add margin for spacing */
+}
+
+.left-panel-w {
+  width: 50%; /* Adjust the width as needed */
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+/* Container for the left panel content */
+.left-panel-content-w {
+  max-height: calc(100vh - 60px);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Style the search bar */
+/* .search-bar {
+  margin-bottom: 20px;
+  background-color: #252525;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.search-bar-input-Box {
+  align-items: center;
+  border-radius: 7px;
+} */
+
+/* Style the product list as a grid */
+.product-list-w {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  overflow-y: auto;
+}
+
+/* Style the product cards within the grid */
+.product-card-w {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s;
+  position: relative;
+}
+
+.product-card-w img {
+  max-width: 100%;
+  max-height: 150px;
+  height: auto;
+}
+
+.product-card-w:hover {
+  transform: translateY(-5px);
+}
+
+.product-card-w button {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-top: auto;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.product-card-w button:hover {
+  background-color: #6b7a8b;
+}
+
+/* Container for the right panel content */
+.right-panel-w {
+  flex: 1;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #dedede;
+  border-left: 1px solid #ccc;
+}
+
+/* Style the containers */
+.container-w {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.container-w h2 {
+  margin-bottom: 10px;
+}
+
+/* Style the images inside the containers */
+.container-item-w img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+.calculate-button-w {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.calculate-button-w button {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.calculate-button-w button:hover {
+  background-color: #9d9e9e;
+}
+
+.combined-colors-w {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items horizontally */
+  text-align: center; /* Center align text within the container */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.combined-colors-w h2 {
+  font-size: 24px; /* Adjust the font size as needed */
+  margin-bottom: 10px; /* Add some spacing below the heading */
+}
+
+.combined-colors-content-w {
+  display: flex;
+  gap: 10px;
+} 
+
+.color-item-w {
+  padding: 10px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.combined-colors-box {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.right-panel-text-display-w {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+
+
+
